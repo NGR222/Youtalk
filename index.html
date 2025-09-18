@@ -26,7 +26,7 @@
           <li class="menu__item">
             <a class="menu__link" href="">Тарифы</a>
           </li>
-           <li class="menu__item">
+          <li class="menu__item">
             <a class="menu__link" href="">Для бизнеса</a>
           </li>
           <li class="menu__item">
@@ -35,15 +35,51 @@
           <li class="menu__item">
             <a class="menu__link" href="">Сертификаты</a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item menu__item-dropdown">
             <a class="menu__link" href="">Материалы</a>
+            <img
+              class="menu__arrow"
+              src="images/down-arrow.svg"
+              alt="стрелка вниз"
+            />
           </li>
           <li class="menu__item">
             <a class="menu__link" href="">FAQ</a>
           </li>
         </ul>
       </nav>
-      <button class="header__button">Подобрать психолога</button>
+      <button class="header__button button">Подобрать психолога</button>
+      <img
+        class="header__burger-button button"
+        src="images/burger-button.svg"
+        alt="кнопка меню"
+      />
     </header>
+    <main>
+      <section class="breadcrumbs-section">
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item margin-left">
+              <a href="/" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__separator">
+              <img src="images/right-arrow.svg" alt="стрелка вправо" />
+            </li>
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__link">Блог</span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="blog-header-section">
+        <h1 class="blog-header__title">Блог</h1>
+        <div class="blog-header__filters">
+          <button class="filter filter_active">Все</button>
+          <button class="filter">Самооценка и самопринятие</button>
+          <button class="filter">Self</button>
+          <button class="filter">Чувства и эмоции</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
