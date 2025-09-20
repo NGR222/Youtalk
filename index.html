@@ -74,11 +74,74 @@
       <section class="blog-header-section">
         <h1 class="blog-header__title">Блог</h1>
         <div class="blog-header__filters">
-          <button class="filter filter_active">Все</button>
+          <button class="filter">
+            <img src="images/smiling-face.svg" alt="иконка улыбающегося лица" />
+            <span class="icon">Все</span>
+          </button>
           <button class="filter">Самооценка и самопринятие</button>
-          <button class="filter">Self</button>
+          <button class="filter filter-active">
+            <img src="images/unicorn.svg" alt="иконка единорога" />
+            <span class="icon">Self</span>
+          </button>
           <button class="filter">Чувства и эмоции</button>
+          <button class="filter">Тревога</button>
+          <button class="filter">Упражнения</button>
+          <button class="filter">Психология питания</button>
+          <button class="filter">Насилие</button>
+          <button class="filter">Личное здоровье</button>
         </div>
+      </section>
+      <section class="main-cards-section">
+        <a class="main-card__linlk" href="#">
+          <article class="main-card">
+            <img
+              class="main-card__image"
+              src="images/cards-images/first-image.png"
+              alt="изображение статьи"
+            />
+            <button class="filter filter-card">
+              <img src="images/unicorn.svg" alt="иконка единорога" />
+              <span class="icon">Самооценка и самопринятие</span>
+            </button>
+            <button class="filter filter-card filter-card-second">
+              <img src="images/unicorn.svg" alt="иконка единорога" />
+              <span class="icon">Self</span>
+            </button>
+            <div class="main-card__content">
+              <h2 class="main-card__title">
+                Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+              </h2>
+              <span class="main-card__author">Автор: Лиза Файнтух</span>
+              <p class="main-card__text">
+                Изначально термин «эмоциональное профессиональной сфере и относился...
+              </p>
+              <time class="main-card__date" datetime="2021-08-21">21.08.2021</time>
+            </div>
+          </article>
+        </a>
+        <a class="main-card__linlk" href="#">
+        <article class="main-card">
+          <img
+            class="main-card__image second-image"
+            src="images/cards-images/second-image.png"
+            alt="изображение статьи"
+          />
+          <button class="filter filter-card">
+              <img src="images/unicorn.svg" alt="иконка единорога" />
+              <span class="icon">Self</span>
+          </button>
+          <div class="main-card__content">
+            <h2 class="main-card__title">
+              Как не утонуть в тревоге и управлять своими страхами
+            </h2>
+            <span class="main-card__author">Автор: Екатерина Бельтюкова</span>
+            <p class="main-card__text">
+             Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных ситуациях по-разному обходиться ...
+            </p>
+            <time class="main-card__date" datetime="2021-08-21">21.08.2021</time>
+          </div>
+        </article>
+        </a>
       </section>
     </main>
   </body>

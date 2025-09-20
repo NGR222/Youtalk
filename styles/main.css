@@ -96,3 +96,127 @@
 .margin-left {
   margin-left: 5px;
 }
+
+.blog-header__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #333333;
+  margin-top: 27px;
+  margin-bottom: 32px;
+}
+
+.blog-header__filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #C1C5CD;
+  border-radius: 24px;
+  padding: 6px 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  /* margin-top: 32px; */
+}
+
+.filter-active {
+  border: 2px solid #16C8BB;
+}
+
+.icon {
+  margin-left: 4px;
+}
+
+/* main-cards-section */
+
+.main-cards-section {
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+}
+
+.main-card {
+  /* width: 588px; */
+  width: clamp(29.25rem, 10.788rem + 28.846vw, 36.75rem);
+  min-height: 499px;
+  border: 1px solid #DEDEDE;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-card__image {
+  object-fit: cover;
+  object-position: bottom;
+  height: 260px;
+  width: 100%;
+  display: block;
+}
+
+.main-card__content {
+  padding: 16px;
+}
+
+.main-card__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.main-card__author {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #494949;
+}
+
+.main-card__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+
+.main-card__date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #868686;
+  margin-top: 68px;
+}
+
+.second-image {
+  object-position: center;
+}
+
+.filter-card {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  background-color: #FFFFFFB2;
+  margin-top: 0;
+}
+
+.filter-card-second {
+  top: 45px;
+  left: 7px;
+}
