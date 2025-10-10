@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
+
   <body class="page">
     <header class="header">
       <a class="header__logo" href="">
@@ -56,7 +57,7 @@
       />
     </header>
 
-    <main>
+    <main class="main">
       <section class="breadcrumbs-section">
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
@@ -210,7 +211,7 @@
         </a>
 
         <a class="secondary-card__linlk" href="#0">
-          <article class="secondary-card card">
+          <article class="secondary-card card secondary-card-third">
             <img
               class="secondary-card__image"
               src="images/cards-images/fifth-image.png"
@@ -233,7 +234,7 @@
         </a>
 
         <a class="secondary-card__linlk" href="#0">
-          <article class="secondary-card card">
+          <article class="secondary-card card secondary-card-fourth">
             <img
               class="secondary-card__image"
               src="images/cards-images/sixth-image.jpg"
@@ -258,7 +259,7 @@
         </a>
 
         <a class="secondary-card__linlk" href="#0">
-          <article class="secondary-card card">
+          <article class="secondary-card card secondary-card-fifth">
             <img
               class="secondary-card__image"
               src="images/cards-images/seventh-image.jpg"
@@ -284,7 +285,7 @@
         </a>
 
         <a class="secondary-card__linlk" href="#0">
-          <article class="secondary-card card">
+          <article class="secondary-card card secondary-card-sixth">
             <img
               class="secondary-card__image"
               src="images/cards-images/eighth-image.jpg"
@@ -298,7 +299,8 @@
               <h2 class="card-title">Как управлять своими эмоциями: 8 шагов</h2>
               <span class="card-author">Автор: Екатерина Бельтюкова</span>
               <p class="card-text">
-                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
+                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные
+                эмоции. Пришло время об этом написать!
               </p>
               <time class="card-date" datetime="2021-08-07">07.08.2021</time>
             </div>
@@ -307,6 +309,105 @@
         <button class="secondary-cards-section__button button">Ещё</button>
       </section>
     </main>
-    
+
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="menu footer__menu">
+          <ul class="menu__list footer__menu-list">
+            <li class="menu__item">
+              <a class="menu__link" href="">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Тарифы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Для бизнеса</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Психологам</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">FAQ</a>
+            </li>
+          </ul>
+          <ul class="menu__list footer__menu-list">
+            <li class="menu__item">
+              <a class="menu__link" href="">Блог</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Вебинары</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Подкаст</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Сертификат</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__mailing">
+          <h3 class="footer__mailing-title">
+            Одно письмо в неделю со свежими новостями и акциями
+          </h3>
+          <form class="footer__form" action="#" method="post">
+            <input
+              class="footer__input"
+              type="email"
+              name="email"
+              placeholder="Ваш email"
+              required
+            />
+            <button class="footer__subscribe-button button" type="submit">
+              <img
+                class="footer__subscribe-button-img"
+                src="images/mailing-button.png"
+                alt="кнопка подписки"
+              />
+            </button>
+          </form>
+          <p class="footer__mailing-disclaimer">
+            Подписываясь, я соглашаюсь на обработку персональных данных в
+            соответствии с ФЗ РФ № 152-ФЗ «О персональных данных», а также с
+            Политикой конфиденциальности
+          </p>
+        </div>
+        <div class="footer__members">
+          <a class="footer__members-link" href="#0">
+            <img
+              src="images/footer-images/members.svg"
+              alt="иконка членов ассоциации"
+            />
+          </a>
+          <div class="footer__socials">
+            <a class="footer__social-link" href="#0">
+              <img src="images/footer-images/vk.png" alt="иконка вк" />
+            </a>
+            <a class="footer__social-link" href="#0">
+              <img
+                src="images/footer-images/telegram.png"
+                alt="иконка телеграм"
+              />
+            </a>
+            <a class="footer__social-link" href="#0">
+              <img
+                src="images/footer-images/twitter.png"
+                alt="иконка твиттер"
+              />
+            </a>
+            <a class="footer__social-link" href="#0">
+              <img src="images/footer-images/dzen.png" alt="иконка дзен" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <span class="footer__copyright-text">©Youtalk, 2018 – 2022</span>
+        <a class="footer__copyright-link" href="#0">Юридические документы</a>
+        <a class="footer__copyright-link" href="#0">Способы оплаты</a>
+      </div>
+    </footer>
   </body>
 </html>
