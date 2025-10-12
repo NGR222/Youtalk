@@ -1,0 +1,26 @@
+.article-section {
+  max-width: 690px;
+}
+
+.article__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #333333;
+}
+
+.article__creator {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #494949;
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.article__maine-image {
+  margin-top: 24px;
+}
